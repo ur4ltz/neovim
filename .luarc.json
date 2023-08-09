@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "codeLens": true,
+  "hint.enable": true,
+  "diagnostics": {
+    "disable": [
+      "lowercase-global"
+    ],
+    "neededFileStatus": {
+      "codestyle-check": "Any"
+    }
+  },
+  "workspace": {
+    "checkThirdParty": false
+  },
+  "format": {
+    "enable": true
+  }
+}
